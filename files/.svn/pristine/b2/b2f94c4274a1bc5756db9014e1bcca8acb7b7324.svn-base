@@ -1,0 +1,4600 @@
+[ 2018-02-01T09:39:55+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/
+[ log ] 127.0.0.1/system/public/ [运行时间：0.630629s][吞吐率：1.59req/s] [内存消耗：1,361.21kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://127.0.0.1/system/',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T09:40:03+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php
+[ log ] 127.0.0.1/system/public/index.php [运行时间：0.022249s][吞吐率：44.95req/s] [内存消耗：1,361.11kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T09:40:14+08:00 ] 127.0.0.1 127.0.0.1 POST /system/public/index.php/index/login/login.html
+[ log ] 127.0.0.1/system/public/index.php/index/login/login.html [运行时间：0.282485s][吞吐率：3.54req/s] [内存消耗：1,923.41kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'dnt' => '1',
+  'content-length' => '33',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://127.0.0.1/system/public/index.php',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'RN005945',
+  'password' => '826498',
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T09:40:14+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/index/index.html
+[ log ] 127.0.0.1/system/public/index.php/index/index/index.html [运行时间：0.194963s][吞吐率：5.13req/s] [内存消耗：1,920.77kb] [文件加载：54]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'dnt' => '1',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://127.0.0.1/system/public/index.php',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\index.html [ array (
+  0 => 'nav',
+  1 => 'nav_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001431s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.100860s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  fid = 0 ) [ RunTime:0.000428s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T09:40:29+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/index/filelist.html?fid=1
+[ log ] 127.0.0.1/system/public/index.php/index/index/filelist.html?fid=1 [运行时间：0.077545s][吞吐率：12.90req/s] [内存消耗：1,943.11kb] [文件加载：54]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'filelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->filelist[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\filelist.html [ array (
+  0 => 'fnav',
+  1 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.019796s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  fid = 1 ) [ RunTime:0.000481s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011122s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 1 ) LIMIT 1 [ RunTime:0.000459s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T09:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/index/divisionlist.html?navfid=2
+[ log ] 127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2 [运行时间：0.204781s][吞吐率：4.88req/s] [内存消耗：2,027.48kb] [文件加载：56]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'divisionlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/filelist.html?fid=1',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'navfid' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->divisionlist[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\divisionlist.html [ array (
+  0 => 'navid',
+  1 => 'navName',
+  2 => 'fnav',
+  3 => 'company',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010918s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.018301s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 2 ) LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010426s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 1 ) LIMIT 1 [ RunTime:0.000261s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T09:40:33+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.028093s][吞吐率：35.60req/s] [内存消耗：1,301.98kb] [文件加载：45]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T09:41:15+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/index/filelist.html?fid=1
+[ log ] 127.0.0.1/system/public/index.php/index/index/filelist.html?fid=1 [运行时间：0.071358s][吞吐率：14.01req/s] [内存消耗：1,943.11kb] [文件加载：54]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'filelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->filelist[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\filelist.html [ array (
+  0 => 'fnav',
+  1 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010972s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.018705s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  fid = 1 ) [ RunTime:0.000470s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010254s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 1 ) LIMIT 1 [ RunTime:0.000448s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T09:41:16+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/index/divisionlist.html?navfid=2
+[ log ] 127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2 [运行时间：0.091463s][吞吐率：10.93req/s] [内存消耗：2,027.48kb] [文件加载：56]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'divisionlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/filelist.html?fid=1',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'navfid' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->divisionlist[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\divisionlist.html [ array (
+  0 => 'navid',
+  1 => 'navName',
+  2 => 'fnav',
+  3 => 'company',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000637s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.019058s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 2 ) LIMIT 1 [ RunTime:0.000502s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010689s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 1 ) LIMIT 1 [ RunTime:0.000306s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T09:41:17+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.020294s][吞吐率：49.28req/s] [内存消耗：1,301.98kb] [文件加载：45]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:10:48+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/
+[ log ] 127.0.0.1/system/public/ [运行时间：0.025364s][吞吐率：39.43req/s] [内存消耗：1,361.25kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:11:00+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php
+[ log ] 127.0.0.1/system/public/index.php [运行时间：0.028357s][吞吐率：35.26req/s] [内存消耗：1,361.11kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:11:08+08:00 ] 127.0.0.1 127.0.0.1 POST /system/public/index.php/index/login/login.html
+[ log ] 127.0.0.1/system/public/index.php/index/login/login.html [运行时间：0.120743s][吞吐率：8.28req/s] [内存消耗：1,923.63kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/system/public/index.php',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'content-length' => '33',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'RN005945',
+  'password' => '826498',
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:11:08+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/index/index.html
+[ log ] 127.0.0.1/system/public/index.php/index/index/index.html [运行时间：0.066882s][吞吐率：14.95req/s] [内存消耗：1,920.79kb] [文件加载：54]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\index.html [ array (
+  0 => 'nav',
+  1 => 'nav_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013788s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.025485s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  fid = 0 ) [ RunTime:0.000320s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T10:11:13+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/index/filelist.html?fid=1
+[ log ] 127.0.0.1/system/public/index.php/index/index/filelist.html?fid=1 [运行时间：0.143745s][吞吐率：6.96req/s] [内存消耗：1,943.10kb] [文件加载：54]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'filelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->filelist[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\filelist.html [ array (
+  0 => 'fnav',
+  1 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010299s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.086670s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  fid = 1 ) [ RunTime:0.000322s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010911s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 1 ) LIMIT 1 [ RunTime:0.000492s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T10:11:19+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/index/divisionlist.html?navfid=2
+[ log ] 127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2 [运行时间：0.084466s][吞吐率：11.84req/s] [内存消耗：2,027.53kb] [文件加载：56]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'divisionlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/filelist.html?fid=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'navfid' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->divisionlist[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\divisionlist.html [ array (
+  0 => 'navid',
+  1 => 'navName',
+  2 => 'fnav',
+  3 => 'company',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000576s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.018737s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 2 ) LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 1 ) LIMIT 1 [ RunTime:0.000237s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T10:11:24+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.130570s][吞吐率：7.66req/s] [内存消耗：1,564.56kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:11:32+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.024958s][吞吐率：40.07req/s] [内存消耗：1,350.73kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:31:33+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/
+[ log ] 188.188.0.19/system/public/ [运行时间：0.025459s][吞吐率：39.28req/s] [内存消耗：1,361.31kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://188.188.0.19/system/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '188.188.0.19',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:31:39+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php
+[ log ] 188.188.0.19/system/public/index.php [运行时间：0.024403s][吞吐率：40.98req/s] [内存消耗：1,361.14kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '188.188.0.19',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:31:45+08:00 ] 188.188.0.19 188.188.0.19 POST /system/public/index.php/index/login/login.html
+[ log ] 188.188.0.19/system/public/index.php/index/login/login.html [运行时间：0.078030s][吞吐率：12.82req/s] [内存消耗：1,923.58kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://188.188.0.19/system/public/index.php',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'origin' => 'http://188.188.0.19',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'content-length' => '33',
+  'connection' => 'close',
+  'host' => '188.188.0.19',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'RN005945',
+  'password' => '826498',
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:31:45+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/index/index.html
+[ log ] 188.188.0.19/system/public/index.php/index/index/index.html [运行时间：0.061445s][吞吐率：16.27req/s] [内存消耗：1,920.82kb] [文件加载：54]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://188.188.0.19/system/public/index.php',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '188.188.0.19',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\index.html [ array (
+  0 => 'nav',
+  1 => 'nav_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011357s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.018685s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  fid = 0 ) [ RunTime:0.000440s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T10:31:52+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/index/filelist.html?fid=1
+[ log ] 188.188.0.19/system/public/index.php/index/index/filelist.html?fid=1 [运行时间：0.062106s][吞吐率：16.10req/s] [内存消耗：1,943.09kb] [文件加载：54]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'filelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '188.188.0.19',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->filelist[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\filelist.html [ array (
+  0 => 'fnav',
+  1 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000600s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.019422s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  fid = 1 ) [ RunTime:0.000519s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010596s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 1 ) LIMIT 1 [ RunTime:0.000254s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T10:31:54+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/index/divisionlist.html?navfid=2
+[ log ] 188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2 [运行时间：0.096121s][吞吐率：10.40req/s] [内存消耗：2,027.50kb] [文件加载：56]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'divisionlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/filelist.html?fid=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '188.188.0.19',
+)
+[ info ] [ PARAM ] array (
+  'navfid' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->divisionlist[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\divisionlist.html [ array (
+  0 => 'navid',
+  1 => 'navName',
+  2 => 'fnav',
+  3 => 'company',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000459s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.019679s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 2 ) LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010419s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 1 ) LIMIT 1 [ RunTime:0.000817s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T10:31:55+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.021737s][吞吐率：46.00req/s] [内存消耗：1,350.50kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '188.188.0.19',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:32:06+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.024277s][吞吐率：41.19req/s] [内存消耗：1,350.77kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '188.188.0.19',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:37:28+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.073507s][吞吐率：13.60req/s] [内存消耗：1,611.19kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '188.188.0.19',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:40:10+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.025723s][吞吐率：38.88req/s] [内存消耗：1,397.07kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '188.188.0.19',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:40:28+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.023237s][吞吐率：43.03req/s] [内存消耗：1,397.07kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '188.188.0.19',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:40:36+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.030683s][吞吐率：32.59req/s] [内存消耗：1,396.84kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '188.188.0.19',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:42:07+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.022625s][吞吐率：44.20req/s] [内存消耗：1,396.84kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '188.188.0.19',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:42:27+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/
+[ log ] 127.0.0.1/system/public/ [运行时间：0.025501s][吞吐率：39.21req/s] [内存消耗：1,361.25kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:42:34+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php
+[ log ] 127.0.0.1/system/public/index.php [运行时间：0.022964s][吞吐率：43.55req/s] [内存消耗：1,361.11kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:42:41+08:00 ] 127.0.0.1 127.0.0.1 POST /system/public/index.php/index/login/login.html
+[ log ] 127.0.0.1/system/public/index.php/index/login/login.html [运行时间：0.104438s][吞吐率：9.58req/s] [内存消耗：1,923.63kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/system/public/index.php',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'content-length' => '33',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'RN005945',
+  'password' => '826498',
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:42:41+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/index/index.html
+[ log ] 127.0.0.1/system/public/index.php/index/index/index.html [运行时间：0.050530s][吞吐率：19.79req/s] [内存消耗：1,920.79kb] [文件加载：54]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\index.html [ array (
+  0 => 'nav',
+  1 => 'nav_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001327s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.019372s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  fid = 0 ) [ RunTime:0.000338s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T10:42:44+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/index/filelist.html?fid=1
+[ log ] 127.0.0.1/system/public/index.php/index/index/filelist.html?fid=1 [运行时间：0.053449s][吞吐率：18.71req/s] [内存消耗：1,943.10kb] [文件加载：54]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'filelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->filelist[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\filelist.html [ array (
+  0 => 'fnav',
+  1 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000681s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.019008s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  fid = 1 ) [ RunTime:0.000485s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000689s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 1 ) LIMIT 1 [ RunTime:0.000506s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T10:42:45+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/index/divisionlist.html?navfid=2
+[ log ] 127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2 [运行时间：0.094126s][吞吐率：10.62req/s] [内存消耗：2,027.53kb] [文件加载：56]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'divisionlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/filelist.html?fid=1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'navfid' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->divisionlist[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\divisionlist.html [ array (
+  0 => 'navid',
+  1 => 'navName',
+  2 => 'fnav',
+  3 => 'company',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010453s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.018454s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 2 ) LIMIT 1 [ RunTime:0.000495s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010221s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 1 ) LIMIT 1 [ RunTime:0.000426s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T10:42:46+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.022266s][吞吐率：44.91req/s] [内存消耗：1,397.00kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:43:06+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.023935s][吞吐率：41.78req/s] [内存消耗：1,397.10kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:43:28+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.023990s][吞吐率：41.68req/s] [内存消耗：1,397.10kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:43:44+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.025389s][吞吐率：39.39req/s] [内存消耗：1,397.17kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:50:41+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.027482s][吞吐率：36.39req/s] [内存消耗：1,398.34kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:51:45+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.020870s][吞吐率：47.92req/s] [内存消耗：1,398.30kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T10:53:06+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.055611s][吞吐率：17.98req/s] [内存消耗：1,612.30kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:04:37+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.027868s][吞吐率：35.88req/s] [内存消耗：1,398.34kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:05:17+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.026187s][吞吐率：38.19req/s] [内存消耗：1,398.30kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:10:20+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.054352s][吞吐率：18.40req/s] [内存消耗：1,612.75kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:10:31+08:00 ] 127.0.0.1 127.0.0.1 POST /system/public/index.php/index/contract/uploadflies.html
+[ log ] 127.0.0.1/system/public/index.php/index/contract/uploadflies.html [运行时间：0.045337s][吞吐率：22.06req/s] [内存消耗：1,357.73kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'uploadflies',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryISDylrtBdh328pZB',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'content-length' => '1801148',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Contract->uploadFlies[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:10:56+08:00 ] 127.0.0.1 127.0.0.1 POST /system/public/index.php/index/contract/uploadflies.html
+[ log ] 127.0.0.1/system/public/index.php/index/contract/uploadflies.html [运行时间：0.140495s][吞吐率：7.12req/s] [内存消耗：1,119.02kb] [文件加载：41]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'uploadflies',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryISDylrtBdh328pZB',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'content-length' => '1801148',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'echo' (T_ECHO)[E:\WWW\system\application\index\controller\Contract.php:24]
+
+---------------------------------------------------------------
+[ 2018-02-01T11:11:01+08:00 ] 127.0.0.1 127.0.0.1 POST /system/public/index.php/index/contract/uploadflies.html
+[ log ] 127.0.0.1/system/public/index.php/index/contract/uploadflies.html [运行时间：0.020562s][吞吐率：48.63req/s] [内存消耗：1,119.02kb] [文件加载：41]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'uploadflies',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydbpnGBvxdmvzqcAj',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'content-length' => '1801148',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'echo' (T_ECHO)[E:\WWW\system\application\index\controller\Contract.php:24]
+
+---------------------------------------------------------------
+[ 2018-02-01T11:11:11+08:00 ] 127.0.0.1 127.0.0.1 POST /system/public/index.php/index/contract/uploadflies.html
+[ log ] 127.0.0.1/system/public/index.php/index/contract/uploadflies.html [运行时间：0.020792s][吞吐率：48.10req/s] [内存消耗：1,119.02kb] [文件加载：41]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'uploadflies',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryiFPCqxAFYVYG3SiC',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'content-length' => '1801148',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'echo' (T_ECHO)[E:\WWW\system\application\index\controller\Contract.php:24]
+
+---------------------------------------------------------------
+[ 2018-02-01T11:11:37+08:00 ] 127.0.0.1 127.0.0.1 POST /system/public/index.php/index/contract/uploadflies.html
+[ log ] 127.0.0.1/system/public/index.php/index/contract/uploadflies.html [运行时间：0.031424s][吞吐率：31.82req/s] [内存消耗：1,357.84kb] [文件加载：46]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'uploadflies',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryiFPCqxAFYVYG3SiC',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'content-length' => '1801148',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Contract->uploadFlies[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:12:13+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.023471s][吞吐率：42.61req/s] [内存消耗：1,398.27kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:30:42+08:00 ] 127.0.0.1 127.0.0.1 POST /system/public/index.php/index/contract/uploadflies.html
+[ log ] 127.0.0.1/system/public/index.php/index/contract/uploadflies.html [运行时间：0.029077s][吞吐率：34.39req/s] [内存消耗：1,339.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'uploadflies',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZLJRDAcAreS02XJV',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'content-length' => '189',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Contract->uploadFlies[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function move() on a non-object[E:\WWW\system\application\index\controller\Contract.php:21]
+
+---------------------------------------------------------------
+[ 2018-02-01T11:32:40+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.054046s][吞吐率：18.50req/s] [内存消耗：1,612.83kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:32:59+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.028159s][吞吐率：35.51req/s] [内存消耗：1,398.38kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:33:05+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.025765s][吞吐率：38.81req/s] [内存消耗：1,398.38kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:33:32+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.025640s][吞吐率：39.00req/s] [内存消耗：1,398.38kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:34:02+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.046235s][吞吐率：21.63req/s] [内存消耗：1,612.84kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:35:10+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.052193s][吞吐率：19.16req/s] [内存消耗：1,612.93kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:35:57+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/uploadflies.html?
+[ log ] 127.0.0.1/system/public/index.php/index/contract/uploadflies.html? [运行时间：0.025091s][吞吐率：39.86req/s] [内存消耗：1,338.33kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'uploadflies',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Contract->uploadFlies[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function move() on a non-object[E:\WWW\system\application\index\controller\Contract.php:21]
+
+---------------------------------------------------------------
+[ 2018-02-01T11:37:16+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.053700s][吞吐率：18.62req/s] [内存消耗：1,612.91kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:37:22+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.024185s][吞吐率：41.35req/s] [内存消耗：1,398.38kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:37:38+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.022763s][吞吐率：43.93req/s] [内存消耗：1,398.38kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:38:19+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.023642s][吞吐率：42.30req/s] [内存消耗：1,398.38kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:38:54+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.048665s][吞吐率：20.55req/s] [内存消耗：1,612.97kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:41:07+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.055062s][吞吐率：18.16req/s] [内存消耗：1,612.87kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:44:07+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.056724s][吞吐率：17.63req/s] [内存消耗：1,612.87kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:50:46+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.056997s][吞吐率：17.54req/s] [内存消耗：1,612.90kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:51:11+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.048433s][吞吐率：20.65req/s] [内存消耗：1,612.87kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:54:05+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.048766s][吞吐率：20.51req/s] [内存消耗：1,612.43kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:54:15+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.025239s][吞吐率：39.62req/s] [内存消耗：1,398.38kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:54:41+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.027882s][吞吐率：35.87req/s] [内存消耗：1,398.38kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:55:06+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.046510s][吞吐率：21.50req/s] [内存消耗：1,612.44kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:55:21+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.046878s][吞吐率：21.33req/s] [内存消耗：1,612.95kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:55:49+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.054861s][吞吐率：18.23req/s] [内存消耗：1,612.95kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T11:57:22+08:00 ] 127.0.0.1 127.0.0.1 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 127.0.0.1/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.053147s][吞吐率：18.82req/s] [内存消耗：1,567.38kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://127.0.0.1/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:12:53+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/
+[ log ] 188.188.0.19/system/public/ [运行时间：1.158144s][吞吐率：0.86req/s] [内存消耗：1,361.19kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:13:02+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php
+[ log ] 188.188.0.19/system/public/index.php [运行时间：0.027192s][吞吐率：36.78req/s] [内存消耗：1,361.14kb] [文件加载：48]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:13:14+08:00 ] 188.188.0.19 188.188.0.19 POST /system/public/index.php/index/login/login.html
+[ log ] 188.188.0.19/system/public/index.php/index/login/login.html [运行时间：0.779505s][吞吐率：1.28req/s] [内存消耗：1,923.53kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'dnt' => '1',
+  'content-length' => '33',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'RN005945',
+  'password' => '826498',
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ E:\WWW\system\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:13:14+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/index/index.html
+[ log ] 188.188.0.19/system/public/index.php/index/index/index.html [运行时间：0.256021s][吞吐率：3.91req/s] [内存消耗：1,920.77kb] [文件加载：54]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'dnt' => '1',
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\index.html [ array (
+  0 => 'nav',
+  1 => 'nav_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017513s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.101544s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  fid = 0 ) [ RunTime:0.001468s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T15:13:41+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/index/filelist.html?fid=1
+[ log ] 188.188.0.19/system/public/index.php/index/index/filelist.html?fid=1 [运行时间：0.113083s][吞吐率：8.84req/s] [内存消耗：1,943.01kb] [文件加载：54]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'filelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/index.html',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'fid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->filelist[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\filelist.html [ array (
+  0 => 'fnav',
+  1 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009118s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.022576s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  fid = 1 ) [ RunTime:0.000536s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007315s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 1 ) LIMIT 1 [ RunTime:0.001379s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T15:13:42+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/index/divisionlist.html?navfid=2
+[ log ] 188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2 [运行时间：0.238049s][吞吐率：4.20req/s] [内存消耗：2,027.42kb] [文件加载：56]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'divisionlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/filelist.html?fid=1',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'navfid' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->divisionlist[ E:\WWW\system\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT sqlsrv
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\index\divisionlist.html [ array (
+  0 => 'navid',
+  1 => 'navName',
+  2 => 'fnav',
+  3 => 'company',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007166s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `files_index_nav` [ RunTime:0.016458s ]
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 2 ) LIMIT 1 [ RunTime:0.000514s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013525s ] mysql:dbname=archives;host=188.188.0.19;port=3306;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `files_index_nav` WHERE  (  nid = 1 ) LIMIT 1 [ RunTime:0.000651s ]
+
+---------------------------------------------------------------
+[ 2018-02-01T15:13:44+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.079692s][吞吐率：12.55req/s] [内存消耗：1,352.50kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:14:39+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.183224s][吞吐率：5.46req/s] [内存消耗：1,567.29kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:15:54+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.051086s][吞吐率：19.57req/s] [内存消耗：1,567.45kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:16:01+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.024013s][吞吐率：41.64req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:16:08+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.025222s][吞吐率：39.65req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:16:13+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.025624s][吞吐率：39.03req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:16:22+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.027035s][吞吐率：36.99req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:37:16+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.024668s][吞吐率：40.54req/s] [内存消耗：1,352.55kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:39:48+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.027027s][吞吐率：37.00req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:40:04+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.025899s][吞吐率：38.61req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:41:41+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.024234s][吞吐率：41.26req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:42:00+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.026492s][吞吐率：37.75req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:42:06+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.024156s][吞吐率：41.40req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:42:10+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.026253s][吞吐率：38.09req/s] [内存消耗：1,352.71kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:42:10+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.028730s][吞吐率：34.81req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:42:11+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.041252s][吞吐率：24.24req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:42:11+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.024927s][吞吐率：40.12req/s] [内存消耗：1,352.55kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:42:11+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.026364s][吞吐率：37.93req/s] [内存消耗：1,352.55kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:42:11+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.023533s][吞吐率：42.49req/s] [内存消耗：1,352.55kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:42:11+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.022540s][吞吐率：44.37req/s] [内存消耗：1,352.55kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:42:11+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.023773s][吞吐率：42.06req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:42:24+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.024342s][吞吐率：41.08req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:42:31+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.032649s][吞吐率：30.63req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:42:42+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.024101s][吞吐率：41.49req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:43:11+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.025946s][吞吐率：38.54req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T15:43:28+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.023458s][吞吐率：42.63req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T16:11:35+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.048181s][吞吐率：20.76req/s] [内存消耗：1,567.30kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T16:12:58+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.045141s][吞吐率：22.15req/s] [内存消耗：1,567.29kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T16:13:40+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.048775s][吞吐率：20.50req/s] [内存消耗：1,567.34kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T16:52:32+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.024210s][吞吐率：41.31req/s] [内存消耗：1,352.55kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T16:56:44+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.084740s][吞吐率：11.80req/s] [内存消耗：1,565.63kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T16:59:09+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.052921s][吞吐率：18.90req/s] [内存消耗：1,567.38kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T16:59:28+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.024701s][吞吐率：40.48req/s] [内存消耗：1,352.50kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:30:44+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.047894s][吞吐率：20.88req/s] [内存消耗：1,567.41kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:31:08+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.049476s][吞吐率：20.21req/s] [内存消耗：1,567.59kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:31:09+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.025387s][吞吐率：39.39req/s] [内存消耗：1,352.51kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:31:09+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.022870s][吞吐率：43.73req/s] [内存消耗：1,352.55kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:31:09+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.027904s][吞吐率：35.84req/s] [内存消耗：1,352.55kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:31:09+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.023119s][吞吐率：43.25req/s] [内存消耗：1,352.55kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:31:42+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.036804s][吞吐率：27.17req/s] [内存消耗：1,352.50kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:31:42+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：1,352.50kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:31:42+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.059381s][吞吐率：16.84req/s] [内存消耗：1,567.64kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:31:42+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.040424s][吞吐率：24.74req/s] [内存消耗：1,352.50kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:31:43+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.034464s][吞吐率：29.02req/s] [内存消耗：1,352.50kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:31:43+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.034662s][吞吐率：28.85req/s] [内存消耗：1,352.50kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:34:52+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.049351s][吞吐率：20.26req/s] [内存消耗：1,567.63kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:39:54+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.046698s][吞吐率：21.41req/s] [内存消耗：1,567.55kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:40:06+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.061046s][吞吐率：16.38req/s] [内存消耗：1,567.56kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:40:12+08:00 ] 188.188.0.19 188.188.0.19 POST /system/public/index.php/index/contract/uploadFlies.html?
+[ log ] 188.188.0.19/system/public/index.php/index/contract/uploadFlies.html? [运行时间：0.193203s][吞吐率：5.18req/s] [内存消耗：1,391.24kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'uploadFlies',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'dnt' => '1',
+  'content-length' => '815700',
+  'host' => '188.188.0.19',
+  'user-agent' => 'lpszAgent',
+  'content-type' => 'multipart/form-data; boundary=---------------------------7db29f2140360',
+)
+[ info ] [ PARAM ] array (
+  'submitted' => 'submit',
+)
+[ info ] [ RUN ] app\index\controller\Contract->uploadFlies[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function move() on a non-object[E:\WWW\system\application\index\controller\Contract.php:21]
+
+---------------------------------------------------------------
+[ 2018-02-01T17:40:57+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.049597s][吞吐率：20.16req/s] [内存消耗：1,567.26kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:40:58+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.022502s][吞吐率：44.44req/s] [内存消耗：1,352.71kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:41:48+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.047633s][吞吐率：20.99req/s] [内存消耗：1,567.47kb] [文件加载：49]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:41:53+08:00 ] 188.188.0.19 188.188.0.19 POST /system/public/index.php/index/contract/uploadFlies.html?
+[ log ] 188.188.0.19/system/public/index.php/index/contract/uploadFlies.html? [运行时间：0.024452s][吞吐率：40.90req/s] [内存消耗：1,391.29kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'uploadFlies',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'dnt' => '1',
+  'content-length' => '817583',
+  'host' => '188.188.0.19',
+  'user-agent' => 'lpszAgent',
+  'content-type' => 'multipart/form-data; boundary=---------------------------7db29f2140360',
+)
+[ info ] [ PARAM ] array (
+  'submitted' => 'submit',
+)
+[ info ] [ RUN ] app\index\controller\Contract->uploadFlies[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function move() on a non-object[E:\WWW\system\application\index\controller\Contract.php:21]
+
+---------------------------------------------------------------
+[ 2018-02-01T17:43:21+08:00 ] 188.188.0.19 188.188.0.19 GET /system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2
+[ log ] 188.188.0.19/system/public/index.php/index/contract/contractlist.html?comId=5&fnavId=1&navId=2 [运行时间：0.027054s][吞吐率：36.96req/s] [内存消耗：1,352.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'contractlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'dnt' => '1',
+  'host' => '188.188.0.19',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://188.188.0.19/system/public/index.php/index/index/divisionlist.html?navfid=2',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+)
+[ info ] [ PARAM ] array (
+  'comId' => '5',
+  'fnavId' => '1',
+  'navId' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Contract->contractlist[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ VIEW ] E:\WWW\system\public/../application/index\view\contract\contractlist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-01T17:43:25+08:00 ] 188.188.0.19 188.188.0.19 POST /system/public/index.php/index/contract/uploadFlies.html?
+[ log ] 188.188.0.19/system/public/index.php/index/contract/uploadFlies.html? [运行时间：0.023151s][吞吐率：43.19req/s] [内存消耗：1,391.29kb] [文件加载：50]
+[ info ] [ LANG ] E:\WWW\system\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'contract',
+    2 => 'uploadFlies',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'dnt' => '1',
+  'content-length' => '815042',
+  'host' => '188.188.0.19',
+  'user-agent' => 'lpszAgent',
+  'content-type' => 'multipart/form-data; boundary=---------------------------7db29f2140360',
+)
+[ info ] [ PARAM ] array (
+  'submitted' => 'submit',
+)
+[ info ] [ RUN ] app\index\controller\Contract->uploadFlies[ E:\WWW\system\application\index\controller\Contract.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function move() on a non-object[E:\WWW\system\application\index\controller\Contract.php:21]
+
+---------------------------------------------------------------
