@@ -1,0 +1,104 @@
+<{include file="./public/head.html" /}>
+
+<title>编辑消费者</title>
+<meta name="keywords" content="蓝划优品">
+<meta name="description" content="蓝划优品">
+</head>
+<body>
+<article class="cl pd-20">
+	<form action="<?= \think\Url::build('admin/consume/consumeredit') ?>" method="post" onsubmit="return check()" class="form form-horizontal" id="form-member-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>消费者姓名：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" required value="<{$cons['cons_name']}>" id="member_name" name="cons_name">
+				<input type="hidden" value="<{$cons['cid']}>" name="cid">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>手机：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="number" style="width:100%;" class="input-text" required value="<{$cons['cons_phone']}>" id="mobile" name="cons_phone">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>消费者区域：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<select name="cons_tid" required id="cons-type" class="input-text">
+					<{foreach name="memtype" item="mt"}>
+						<option value="<{$mt['id']}>" <{eq name="$cons['cons_tid']" value="$mt['id']"}>selected<{/eq}> ><{$mt['type_name']}></option>
+					<{/foreach}>
+				</select>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>是否群组：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<div class="radio-box">
+					<input name="cons_rele_mark" type="radio" id="sex-1" value="1" <{eq name="$cons['cons_rele_mark']" value="1"}> checked <{/eq}> >
+					<label for="sex-1">是</label>
+				</div>
+				<div class="radio-box">
+					<input type="radio" id="sex-2" name="cons_rele_mark" value="2" <{eq name="$cons['cons_rele_mark']" value="2"}> checked <{/eq}> >
+					<label for="sex-2">否</label>
+				</div>
+			</div>
+		</div>
+		<div class="row cl" id="stand" style="display:none;">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>套餐标准：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<select name="cons_sid" id="cons-stand" class="input-text">
+					<option value="0">请选择标准</option>
+					<{foreach name="memstand" item="ms"}>
+						<option value="<{$ms['id']}>" <{eq name="$cons['cons_sid']" value="$ms['id']"}>selected<{/eq}> ><{$ms['standard_name']}></option>
+					<{/foreach}>
+				</select>
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+</article>
+
+<{include file="./public/footer.html" /}>
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="_LIB_/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+	function check()
+	{
+		var tid = $("#cons-type").val();
+		if (tid == 0) 
+		{
+			return false;
+		}
+		var standStyle = $("#stand").attr("style");
+		if (standStyle == "display:;") 
+		{
+			var sid = $("#cons-stand").val();
+			if (sid == 0) 
+				{
+					return false;
+				}
+		}
+	}
+
+	$(function(){
+		$("input:radio").click(function(){
+			var raval = $(this).val();
+			if (raval == 1) {
+				$("#stand").attr("style","display:none;");
+			}else{
+				$("#stand").attr("style","display:;");
+			}
+		});
+	});
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

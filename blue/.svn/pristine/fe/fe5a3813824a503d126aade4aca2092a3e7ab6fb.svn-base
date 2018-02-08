@@ -1,0 +1,7 @@
+<{include file="./public/head.html" /}>
+
+
+<title>蓝划优品</title>
+
+<{include file="./public/header.html" /}>
+<{include file="./public/footer.html" /}>

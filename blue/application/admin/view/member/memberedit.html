@@ -1,0 +1,150 @@
+<{include file="./public/head.html" /}>
+
+<title>添加用户</title>
+<meta name="keywords" content="蓝划优品">
+<meta name="description" content="蓝划优品">
+</head>
+<body>
+<article class="cl pd-20">
+	<form action="<?= \think\Url::build('admin/member/memberedit') ?>" method="post" onsubmit="return check()" class="form form-horizontal" id="form-member-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>用户名：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" required value="<{$mem['member_name']}>" id="name" name="member_name">
+				<input type="hidden" name="mid" value="<{$mem['mid']}>" >
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>性别：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<div class="radio-box">
+					<input name="member_sex" type="radio" id="sex-1" value="1" <{eq name="$mem['member_sex']" value="1"}>checked<{/eq}> >
+					<label for="sex-1">男</label>
+				</div>
+				<div class="radio-box">
+					<input type="radio" id="sex-2" name="member_sex" value="2" <{eq name="$mem['member_sex']" value="2"}>checked<{/eq}> >
+					<label for="sex-2">女</label>
+				</div>
+				<div class="radio-box">
+					<input type="radio" id="sex-3" name="member_sex" value="3" <{eq name="$mem['member_sex']" value="3"}>checked<{/eq}> >
+					<label for="sex-3">保密</label>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>手机：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="number" style="width:100%;" class="input-text" required value="<{$mem['mobile_phone']}>" id="mobile" name="mobile_phone">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>会员地址：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" required value="<{$mem['member_addr']}>" name="member_addr" id="email">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>会员等级：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<select name="member_gid" id="mem-grade" class="input-text">
+					<{foreach name="memgrade" item="mg"}>
+						<option value="<{$mg['id']}>" <{eq name="$mem['member_gid']" value="$mg['id']"}>selected<{/eq}> ><{$mg['grade_name']}></option>
+					<{/foreach}>
+				</select>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>标准号：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<select name="member_sid" id="mem-stand" class="input-text">
+					<{foreach name="memstand" item="ms"}>
+						<option value="<{$ms['id']}>" <{eq name="$mem['member_sid']" value="$ms['id']"}>selected<{/eq}> ><{$ms['standard_name']}></option>
+					<{/foreach}>
+				</select>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>会员区域：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<select name="member_tid" required id="cons-type" class="input-text">
+					<{foreach name="memtype" item="mt"}>
+						<option value="<{$mt['id']}>" <{eq name="$mem['member_tid']" value="$mt['id']"}>selected<{/eq}> ><{$mt['type_name']}></option>
+					<{/foreach}>
+				</select>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>其他联系方式：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="<{$mem['family_phone']}>" name="family_phone" id="email">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>消费者ID：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="number" class="input-text" style="width:100%;" value="<{$mem['member_cid']}>" required name="member_cid" id="email">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">身份证号码：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="number" style="width:100%;" class="input-text" value="<{$mem['member_ID_card']}>" name="member_ID_card" id="email">
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+</article>
+
+<{include file="./public/footer.html" /}>
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="_LIB_/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+	function check()
+	{
+		var grade = $("#mem-grade").val();
+		var stand = $("#mem-stand").val();
+		if (stand == 0 || grade == 0) 
+		{
+			return false;
+		}
+	}
+
+	$(function(){
+		
+		$("#form-member-add").validate({
+			rules:{
+				mobile_phone:{
+					required:true,
+					isMobile:true,
+					maxlength:11
+				},
+				member_ID_card:{
+					required:true,
+					maxlength:18
+				},
+			},
+			onkeyup:false,
+			focusCleanup:true,
+			success:"valid",
+			submitHandler:function(form){
+				$(form).ajaxSubmit(function(){
+					var index = parent.layer.getFrameIndex(window.name);
+					parent.$('.btn-refresh').click();
+					parent.location.reload();
+				});
+				
+			}
+		});
+	});
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

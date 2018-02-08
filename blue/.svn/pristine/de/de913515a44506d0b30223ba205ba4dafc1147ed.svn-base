@@ -1,0 +1,16 @@
+<{include file="./public/head.html" /}>
+
+<title>添加用户 - H-ui.admin 3.0</title>
+<meta name="keywords" content="蓝划优品">
+<meta name="description" content="蓝划优品">
+</head>
+<body>
+<article class="cl pd-20">
+	<form action="" method="post" class="form form-horizontal" id="form-member-add">
+		<h2>操作成功！</h2>
+	</form>
+</article>
+<script>
+	top.reaload();
+</script>
+<{include file="./public/footer.html" /}>

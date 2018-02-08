@@ -1,0 +1,159 @@
+<{include file="./public/head.html" /}>
+
+<title>添加用户</title>
+<meta name="keywords" content="蓝划优品">
+<meta name="description" content="蓝划优品">
+</head>
+<body>
+<article class="cl pd-20">
+	<form action="<?= \think\Url::build('admin/member/memberAdd') ?>" method="post" onsubmit="return check()" class="form form-horizontal" id="form-member-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>会员姓名：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" required placeholder="请输入会员姓名" id="mobile" name="member_name">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>会员性别：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<div class="radio-box">
+					<input name="member_sex" type="radio" id="sex-1" value="1" checked>
+
+				</div>
+				<div class="radio-box">
+					<input type="radio" id="sex-2" name="member_sex" value="2">
+
+				</div>
+				<div class="radio-box">
+					<input type="radio" id="sex-3" name="member_sex" value="3">
+
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>入网手机号码：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="number" style="width:100%;" class="input-text" required placeholder="请输入会员入网号码" id="mobile" name="mobile_phone">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>会员地址：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" required placeholder="请输入会员会员地址" name="member_addr" id="email">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>会员类别：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<select name="member_gid" id="mem-grade" class="input-text">
+					<option value="0">请选择类别</option>
+					<{foreach name="memgrade" item="mg"}>
+						<option value="<{$mg['id']}>"><{$mg['grade_name']}></option>
+					<{/foreach}>
+				</select>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>标准号：</label>			
+			<div class="formControls col-xs-8 col-sm-9">
+				<select name="member_sid" id="mem-stand" class="input-text">
+					<option value="0">请选择标准</option>
+					<{foreach name="memstand" item="ms"}>
+						<option value="<{$ms['id']}>"><{$ms['standard_name']}></option>
+					<{/foreach}>
+				</select>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>会员区域：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<select name="member_tid" required id="cons-type" class="input-text">
+					<option value="0">请选择区域</option>
+					<{foreach name="memtype" item="mt"}>
+						<option value="<{$mt['id']}>"><{$mt['type_name']}></option>
+					<{/foreach}>
+				</select>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">家庭号码：</label>			
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" placeholder="请输入会员家庭号码" name="family_phone" id="email">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">消费者ID：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="number" class="input-text" style="width:100%;" placeholder="请输入消费者ID" name="member_cid" id="email">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">身份证号码：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="number" style="width:100%;" class="input-text" placeholder="请输入会员身份证号码" name="member_ID_card" id="email">			
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">			
+				<input class="btn btn-primary radius btn-refresh" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+</article>
+
+<{include file="./public/footer.html" /}>
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="_LIB_/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+	function check()
+	{
+		var grade = $("#mem-grade").val();
+		var stand = $("#mem-stand").val();
+		if (stand == 0 || grade == 0) 
+		{
+			return false;
+		}
+	}
+
+	$(function(){
+		$("input:radio").click(function(){
+			var raval = $(this).val();
+			if (raval == 1) {
+				$("#stand").attr("style","display:none;");
+			}else{
+				$("#stand").attr("style","display:;");
+			}
+		});
+	});
+
+	$(function(){
+		
+		$("#form-member-add").validate({
+			rules:{
+				mobile_phone:{
+					required:true,
+					isMobile:true,
+					maxlength:11
+				},
+			},
+			onkeyup:false,
+			focusCleanup:true,
+			success:"valid",
+			submitHandler:function(form){
+				$(form).ajaxSubmit(function(){
+					var index = parent.layer.getFrameIndex(window.name);
+					parent.$('.btn-refresh').click();
+					parent.location.reload();
+				});
+				
+			}
+		});
+	});
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

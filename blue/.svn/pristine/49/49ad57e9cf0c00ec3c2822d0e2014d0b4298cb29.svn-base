@@ -1,0 +1,25 @@
+<{include file="./public/head.html" /}>
+
+<title>用户查看</title>
+</head>
+<body>
+<article class="cl pd-20">
+  <form action="<?= \think\Url::build('admin/member/memberShow') ?>" method="post" class="form form-horizontal" id="form-member-add">
+    <div class="row cl">
+      <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>消费金额：</label>
+      <div class="formControls col-xs-8 col-sm-9">
+        <input type="number" class="input-text" value="" placeholder="请输入会员消费金额" id="username" name="tip" style="width:100%;">
+        <input type="hidden" class="input-text" value="<?=$id?>" placeholder="" id="username" name="uid">
+      </div>
+    </div>
+    <div class="row cl">
+      <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+        <input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+      </div>
+    </div>
+  </form>
+</article>
+<{include file="./public/footer.html" /}>
+
+</body>
+</html>

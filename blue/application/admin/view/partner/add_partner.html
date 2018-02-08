@@ -1,0 +1,147 @@
+<{include file="./public/head.html" /}>
+
+<title>添加用户 - H-ui.admin 3.0</title>
+<meta name="keywords" content="蓝划优品">
+<meta name="description" content="蓝划优品">
+</head>
+<body>
+<article class="cl pd-20">
+	<form action="<{:Url('admin/partner/doAdd')}>" method="post" class="form form-horizontal" id="form-member-add">
+		<div class="row cl">
+			<label class="form-label  col-sm-2">店名：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"  placeholder="" id="username" name="stroe" value="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label  col-sm-2">营业执照注册号：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"  placeholder="" id="" name="setup_id" value="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label  col-sm-2">经营人：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"  placeholder=""  name="name" value="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label  col-sm-2">电话：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"  placeholder=""  name="phone" value="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label  col-sm-2">身份证号：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"  placeholder=""  name="id_card" value="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label  col-sm-2">收款方式：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"  placeholder="" name="profit" value="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label  col-sm-2">收款人：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"  placeholder=""  name="pro_person" value="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label  col-sm-2">收款账号：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"  placeholder=""  name="pro_account" value="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label  col-sm-2">店铺地址：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"  placeholder="" name="address" value="">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<div class="col-sm-offset-3">
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+</article>
+
+<{include file="./public/footer.html" /}>
+
+
+<script type="text/javascript" src="_LIB_/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $('.skin-minimal input').iCheck({
+            checkboxClass: 'icheckbox-blue',
+            radioClass: 'iradio-blue',
+            increaseArea: '20%'
+        });
+
+        $("#form-member-add").validate({
+            rules:{
+                stroe:{
+                    required:true,
+                },
+                name:{
+                    required:true,
+                },
+                setup_id:{
+                    required:true,
+                    rangelength:[13,18]
+                },
+                phone:{
+                    required:true,
+                    isMobile:true,
+                },
+                id_card:{
+                    required:true,
+                    rangelength:[18,18]
+                },
+                profit:{
+                    required:true,
+                },
+                pro_person:{
+                    required:true,
+                },
+                pro_account:{
+                    required:true,
+                },
+                address:{
+                    required:true,
+                },
+            },
+            onkeyup:false,
+            focusCleanup:true,
+            success:"valid",
+            submitHandler:function(form){
+                $(form).ajaxSubmit(
+                    function(mess){
+                        if(mess['s'] == false)
+                        {
+                            layer.msg(mess['d'],{
+                                icon:2,
+                                time:2000
+                            });
+                        }
+                        else{
+                            var index = parent.layer.getFrameIndex(window.name);
+                            parent.$('.btn-refresh').click();
+                            parent.location.reload();
+                        }
+                    }
+                );
+            }
+        });
+    });
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>
