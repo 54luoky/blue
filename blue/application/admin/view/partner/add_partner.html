@@ -58,18 +58,28 @@
 		<div class="row cl">
 			<label class="form-label  col-sm-2">店铺地址：</label>
 			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text"  placeholder="" name="address" value="">
+				<input type="text" class="input-text"  placeholder="" name="address" value="" readonly >
 			</div>
 		</div>
+
+		<div class="row cl">
+			<label class="form-label  col-sm-2">选择地址：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+			</div>
+		</div>
+
+		<input name="position" value="" type="hidden" />
+		<div id="container" style="width:100%; height:305px"></div>
 
 		<div class="row cl">
 			<div class="col-sm-offset-3">
 				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
 			</div>
 		</div>
+
+
 	</form>
 </article>
-
 <{include file="./public/footer.html" /}>
 
 
@@ -77,7 +87,65 @@
 <script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/jquery.validate.js"></script>
 <script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/validate-methods.js"></script>
 <script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.3&key=fd8f1e99626bbde968f1b49e2417a241&callback=init"></script>
 <script type="text/javascript">
+
+    function init(){
+        var map = new AMap.Map('container', {
+            pitch:0,
+            viewMode:'3D',
+            zoom: 10,
+            expandZoomRange:true,
+            zooms:[3,20],
+            center:[104.06,30.67]
+        });
+        map.plugin(["AMap.ToolBar"], function() {
+            map.addControl(new AMap.ToolBar());
+
+            // geolocation = new AMap.Geolocation({
+            //     enableHighAccuracy: true,//是否使用高精度定位，默认:true
+            //     timeout: 10000,          //超过10秒后停止定位，默认：无穷大
+            //     maximumAge: 0,           //定位结果缓存0毫秒，默认：0
+            //     convert: true,           //自动偏移坐标，偏移后的坐标为高德坐标，默认：true
+            //     showButton: true,        //显示定位按钮，默认：true
+            //     buttonPosition: 'LB',    //定位按钮停靠位置，默认：'LB'，左下角
+            //     buttonOffset: new AMap.Pixel(10, 20),//定位按钮与设置的停靠位置的偏移量，默认：Pixel(10, 20)
+            //     showMarker: true,        //定位成功后在定位到的位置显示点标记，默认：true
+            //     showCircle: true,        //定位成功后用圆圈表示定位精度范围，默认：true
+            //     panToLocation: true,     //定位成功后将定位到的位置作为地图中心点，默认：true
+            //     zoomToAccuracy:true      //定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+            // });
+            // map.addControl(geolocation);
+            // geolocation.getCurrentPosition();
+            // AMap.event.addListener(geolocation, 'complete', onComplete);//返回定位信息
+            // AMap.event.addListener(geolocation, 'error', onError);      //返回定位出错信息
+        });
+
+        AMap.service('AMap.Geocoder',function(){//回调函数
+            //实例化Geocoder
+            geocoder = new AMap.Geocoder({
+                city: "010"//城市，默认：“全国”
+            });
+
+
+            //TODO: 使用geocoder 对象完成相关功能
+        })
+
+        var clickEventListener = map.on('click', function(e) {
+            var long = e.lnglat.getLng();
+            var lat = e.lnglat.getLat();
+            geocoder.getAddress([long,lat], function(status, result) {
+                if (status === 'complete' && result.info === 'OK') {
+					$('input[name="address"]').val(result.regeocode.formattedAddress);
+					$('input[name="position"]').val(long+','+lat);
+					console.log(result.regeocode.formattedAddress);
+                }else{
+
+                }
+            });
+        });
+    }
+
     $(function(){
         $('.skin-minimal input').iCheck({
             checkboxClass: 'icheckbox-blue',

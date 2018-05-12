@@ -1,4 +1,4 @@
-﻿<{include file="./public/head.html" /}>
+<{include file="./public/head.html" /}>
 <title>商家列表</title>
 
 <{include file="./public/header.html" /}>
@@ -22,7 +22,7 @@
 			</div>
 			<div class="cl pd-5 bg-1 bk-gray mt-20">
 				<span class="l">
-					<a href="<?=url('admin/consume/consumetoexcel')?>" class="btn btn-warning radius"><i class="Hui-iconfont">&#xe644;</i> 导&nbsp;出</a>
+					<a href="<?=url('admin/consume/consumesearchtoexcel')?>?<?=$str?>" class="btn btn-warning radius"><i class="Hui-iconfont">&#xe644;</i> 导&nbsp;出</a>
 				</span> 
 				<span class="r">共有数据：<strong><{$lists|count}></strong> 条</span> </div>
 			<div class="mt-20">
@@ -101,6 +101,7 @@ function s_statement(){
 	var end = $("input[name='end_time']").val();
 	window.location.href = "<?=url('admin/consume/consumestatistics') ?>?be="+begin+"&end="+end;
 }
+
 
 
 </script>

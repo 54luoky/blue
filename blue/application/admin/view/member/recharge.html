@@ -1,0 +1,122 @@
+<{include file="./public/head.html" /}>
+
+<title>添加用户</title>
+<meta name="keywords" content="蓝划优品">
+<meta name="description" content="蓝划优品">
+</head>
+<body>
+<article class="cl pd-20">
+	<form action="<?= \think\Url::build('admin/member/recharge') ?>" method="post" class="form form-horizontal" id="form-member-add">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>选择文件：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="file" class="input-text" id="file" name="images" />
+			</div>
+		</div>
+    </form>
+
+    <form action="" method="post" class="form form-horizontal" id="border-for">
+
+    <div class="mt-20">
+		<div>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<span style="float: right;margin-left: 10px;">有效金额 ：<p id="eff" style="float: right"></p></span>
+			<span style="float: right">总金额 ：<p id="tal" style="float: right"></p></span>
+			<div style="clear: both"></div>
+		</div>
+			<table class="table table-border table-bordered table-hover table-bg table-sort">
+				<thead>
+				<tr class="text-c">
+					<th width="3%">序号</th>
+					<th width="5%">姓名</th>
+					<th width="8%">手机</th>
+					<th width="8%">金额</th>
+					<th width="4%">操作</th>
+				</tr>
+				</thead>
+				<tbody id="add-pay">
+
+
+				</tbody>
+			</table>
+		</div>
+
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius btn-refresh" id="sub-list" type="button" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+</article>
+
+<{include file="./public/footer.html" /}>
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="_LIB_/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+	$('#file').change(function(){
+		var from = new FormData(document.getElementById('form-member-add'));
+		$.ajax({
+			url:'<{:Url("admin/member/dealExcel")}>',
+			type:'post',
+			data:from,
+            processData: false,
+            contentType: false,
+            success:function(mess)
+			{
+			    var str='';
+			    $('#tal').html(mess.tal);
+			    $('#eff').html(mess.eff);
+                $.each(mess.err,function(i,v){
+                    if(!v.name)v.name='无';
+                    str += '\n' +
+                        '\t\t\t\t<tr class="text-c fle-e" style="background-color: #f5fafe;">\n' +
+                        '\t\t\t\t\t<td>'+(i+1)+'</td>\n' +
+                        '\t\t\t\t\t<input name="id[]" type="hidden" value="'+v.id+'" />\n' +
+                        '\t\t\t\t\t<td><input type="text" style="width:100%;" class="input-text valid"   name="name[]" readonly value="'+v.name+'"></td>\n' +
+                        '\t\t\t\t\t<td><input type="text" style="width:100%;" class="input-text valid"   name="phone[]" readonly value="'+v.phone+'"></td>\n' +
+                        '\t\t\t\t\t<td><input type="text" style="width:100%;" class="input-text valid"   name="pay[]" value="'+v.pay+'"></td>\n' +
+                        '\t\t\t\t\t<td><button href="javascript:;" type="button"  class="btn btn-xs radius del-pay">删 除 </button></td>\n' +
+                        '\t\t\t\t</tr>';
+                });
+
+                $.each(mess.list,function(i,v){
+                    if(!v.name)v.name='无';
+                    str += '\n' +
+                        '\t\t\t\t<tr class="text-c fle-e">\n' +
+                        '\t\t\t\t\t<td>'+(i+1)+'</td>\n' +
+                        '\t\t\t\t\t<input name="id[]" type="hidden" value="'+v.id+'" />\n' +
+                        '\t\t\t\t\t<td><input type="text" style="width:100%;" class="input-text valid"   name="name[]" readonly value="'+v.name+'"></td>\n' +
+                        '\t\t\t\t\t<td><input type="text" style="width:100%;" class="input-text valid"   name="phone[]" readonly value="'+v.phone+'"></td>\n' +
+                        '\t\t\t\t\t<td><input type="text" style="width:100%;" class="input-text valid"   name="pay[]" value="'+v.pay+'"></td>\n' +
+                        '\t\t\t\t\t<td><button href="javascript:;" type="button"  class="btn btn-xs radius del-pay">删 除 </button></td>\n' +
+                        '\t\t\t\t</tr>';
+                });
+                $('#add-pay').find('tr').remove();
+                $('#add-pay').append(str);
+			}
+		});
+	});
+
+	$('#add-pay').on('click','.del-pay',function(){
+	    $(this).closest('.fle-e').remove();
+    });
+
+	$('#sub-list').click(function(){
+	    $('#border-for').ajaxSubmit({
+			url : "<?= \think\Url::build('admin/member/addPay') ?>",
+			type : 'post',
+			success : function(){
+                parent.layer_close();
+            }
+		});
+	});
+
+
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

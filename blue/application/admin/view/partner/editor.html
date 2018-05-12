@@ -64,13 +64,15 @@
 		</div>
 
 
-		<!--<div class="row cl">-->
-			<!--<label class="form-label col-xs-4 col-sm-3">备注：</label>-->
-			<!--<div class="formControls col-xs-8 col-sm-9">-->
-				<!--<textarea name="beizhu" cols="" rows="" class="textarea"  placeholder="说点什么...最少输入10个字符" onKeyUp="textarealength(this,100)"></textarea>-->
-				<!--<p class="textarea-numberbar"><em class="textarea-length">0</em>/100</p>-->
-			<!--</div>-->
-		<!--</div>-->
+		<div class="row cl">
+			<label class="form-label  col-sm-2">选择地址：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+			</div>
+		</div>
+
+		<input name="position" value="" type="hidden" />
+		<div id="container" style="width:100%; height:305px"></div>
+
 		<div class="row cl">
 			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
 				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
@@ -89,7 +91,46 @@
 <script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/jquery.validate.js"></script>
 <script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/validate-methods.js"></script>
 <script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.3&key=fd8f1e99626bbde968f1b49e2417a241&callback=init"></script>
+
 <script type="text/javascript">
+
+    function init(){
+        var map = new AMap.Map('container', {
+            pitch:0,
+            viewMode:'3D',
+            zoom: 12,
+            expandZoomRange:true,
+            zooms:[3,20],
+            center:[<{$shop.position}>]
+        });
+        map.plugin(["AMap.ToolBar"], function() {
+            map.addControl(new AMap.ToolBar());
+        });
+
+        AMap.service('AMap.Geocoder',function(){//回调函数
+            //实例化Geocoder
+            geocoder = new AMap.Geocoder({
+                city: "010"//城市，默认：“全国”
+            });
+            //TODO: 使用geocoder 对象完成相关功能
+        })
+
+        var clickEventListener = map.on('click', function(e) {
+            var long = e.lnglat.getLng();
+            var lat = e.lnglat.getLat();
+            geocoder.getAddress([long,lat], function(status, result) {
+                if (status === 'complete' && result.info === 'OK') {
+                    $('input[name="address"]').val(result.regeocode.formattedAddress);
+                    $('input[name="position"]').val(long+','+lat);
+                    console.log(result.regeocode.formattedAddress);
+                }else{
+
+                }
+            });
+        });
+    }
+
 $(function(){
 	$('.skin-minimal input').iCheck({
 		checkboxClass: 'icheckbox-blue',

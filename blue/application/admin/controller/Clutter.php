@@ -52,11 +52,11 @@ class Clutter extends Controller{
         }
     }
 
-    //等级状态修改
+    //等级状态修�?
     public function grade_change()
     {
         $id = \think\Request::instance()->get('id');
-        $status = \think\Request::instance()->get('status');
+        $status = \think\Request::instance()->get('grade_status');//var_dump($status);exit;
         $res = db('member_grade')->update(['id'=>$id,'grade_status'=>$status]);
     }
 
@@ -217,7 +217,7 @@ class Clutter extends Controller{
         return $string;
     }
 
-    //区域状态修改
+    //区域状态修�?
     public function dis_change()
     {
         $id = \think\Request::instance()->get('id');
@@ -273,7 +273,7 @@ class Clutter extends Controller{
 
 
 
-    //套餐状态修改
+    //套餐状态�?�改
     public function std_change()
     {
         $id = \think\Request::instance()->get('id');

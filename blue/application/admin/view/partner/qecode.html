@@ -1,0 +1,81 @@
+<{include file="./public/head.html" /}>
+
+<title>添加用户 - H-ui.admin 3.0</title>
+<meta name="keywords" content="蓝划优品">
+<meta name="description" content="蓝划优品">
+</head>
+<body>
+<article class="cl pd-20">
+	<form action="<{:Url('admin/partner/qecode')}>" method="post" class="form form-horizontal" id="form-member-add">
+		<input name="id" value="<{$id}>" type="hidden" />
+		<div class="row cl">
+			<label class="form-label  col-sm-2">收款金额：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"  placeholder="" id="stroe" name="fine" value="">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;确认&nbsp;&nbsp;">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<img src="" id="qrcode" />
+			</div>
+		</div>
+	</form>
+</article>
+
+<{include file="./public/footer.html" /}>
+
+
+
+
+
+<script type="text/javascript" src="_LIB_/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="_LIB_/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	
+	$("#form-member-add").validate({
+        rules:{
+            fine:{
+                digits:true,
+            },
+        },
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+            $(form).ajaxSubmit(
+                function(mess){
+                    var data = JSON.parse( mess );
+                    if(data['status'] != 0)
+                    {
+                        layer.msg(mess['d'],{
+                            icon:2,
+                            time:2000
+                        });
+                    }
+                    else{
+                        $('#qrcode').attr('src',data['qrurl']);
+                    }
+                }
+            );
+		}
+	});
+});
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

@@ -74,21 +74,27 @@
 			</div>
 		</div>
 		<div class="row cl">
-			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>其他联系方式：</label>
-			<div class="formControls col-xs-8 col-sm-9">
-				<input type="text" class="input-text" value="<{$mem['family_phone']}>" name="family_phone" id="email">
-			</div>
-		</div>
-		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>消费者ID：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<input type="number" class="input-text" style="width:100%;" value="<{$mem['member_cid']}>" required name="member_cid" id="email">
 			</div>
 		</div>
 		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">其他联系方式：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="<{$mem['family_phone']}>" name="family_phone" id="email">
+			</div>
+		</div>
+		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-3">身份证号码：</label>
 			<div class="formControls col-xs-8 col-sm-9">
 				<input type="number" style="width:100%;" class="input-text" value="<{$mem['member_ID_card']}>" name="member_ID_card" id="email">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">入会时间：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="date" style="width:100%;" class="input-text" value="<{$mem['ad_time']}>" name="ad_time" >			
 			</div>
 		</div>
 		<div class="row cl">
@@ -125,10 +131,6 @@
 					required:true,
 					isMobile:true,
 					maxlength:11
-				},
-				member_ID_card:{
-					required:true,
-					maxlength:18
 				},
 			},
 			onkeyup:false,

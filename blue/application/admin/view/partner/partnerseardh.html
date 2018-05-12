@@ -1,4 +1,4 @@
-﻿<{include file="./public/head.html" /}>
+<{include file="./public/head.html" /}>
 <title>商家列表</title>
 
 <{include file="./public/header.html" /}>
@@ -13,13 +13,13 @@
 		<article class="cl pd-20">
 			<div class="text-c"><form action="<?= \think\Url::build('admin/partner/partnerseardh') ?>" method="post" >
 				<input type="text" class="input-text" style="width:250px;" placeholder="输入关键字检索" id="" name="par_search">
-				<button type="submit" class="btn btn-success radius"><i class="Hui-iconfont">&#xe665;</i> 搜商家</button>
+				<button type="submit" class="btn btn-success radius" id="" name=""><i class="Hui-iconfont">&#xe665;</i> 搜商家</button>
 			</form></div>
 			<div class="cl pd-5 bg-1 bk-gray mt-20">
-				<!--<span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a>-->
+				
 				<span class="l">
-					<a href="<?=url('admin/partner/partnertoexcel')?>" class="btn btn-warning radius"><i class="Hui-iconfont">&#xe644;</i> 导出</a>
-					<a href="javascript:;" onclick="member_add('添加商家','<?=url("admin/partner/add_partner")?>','','900')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加商家</a>
+					<a href="<?=url('admin/partner/partnersearchtoexcel',array('s'=>$search))?>" class="btn btn-warning radius"><i class="Hui-iconfont">&#xe644;</i> 导出</a>
+					<a href="javascript:;" onclick="member_add('添加商家','<?=url("admin/partner/add_partner")?>','','600')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加商家</a>
 				</span>
 
 				<span class="r">共有数据：<strong><{$lists|count}></strong> 条</span> </div>
@@ -65,7 +65,7 @@
 							<td><{$l.lasttime}></td>
 							<td class="td-manage">
 								<!--<a style="text-decoration:none" onClick="member_stop(this,'10001')" href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a> -->
-								<a title="编辑" href="javascript:;" onclick="member_edit('编辑','<{:Url("admin/partner/editor","id=".$l["id"])}>','4','','900')" class="ml-5" style="text-decoration:none">
+								<a title="编辑" href="javascript:;" onclick="member_edit('编辑','<{:Url("admin/partner/editor","id=".$l["id"])}>','4','','510')" class="ml-5" style="text-decoration:none">
 								<u style="cursor:pointer" class="text-primary">编辑</u>
 								</a>
 								<!--<a style="text-decoration:none" class="ml-5" onClick="change_password('修改密码','change-password.html','10001','600','270')" href="javascript:;" title="修改密码"><i class="Hui-iconfont">&#xe63f;</i></a>-->

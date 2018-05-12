@@ -1,6 +1,9 @@
 <?php
 namespace app\admin\controller;
 use think\Controller;
+
+header("Content-Type: text/html; charset=UTF-8");
+
 class BaseController extends Controller
 {
 /***************** 公共函数 *****************/ 

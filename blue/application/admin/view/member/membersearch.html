@@ -1,4 +1,4 @@
-﻿<{include file="./public/head.html" /}>
+<{include file="./public/head.html" /}>
 
 
 <title>会员管理</title>
@@ -10,10 +10,8 @@
 	<nav class="breadcrumb">
 		<i class="Hui-iconfont">&#xe67f;</i> 首页 
 		<span class="c-gray en">&gt;</span> 用户中心 
-		<span class="c-gray en">&gt;</span> 会员列表
-		<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" >
-			<i class="Hui-iconfont">&#xe68f;</i>
-		</a>
+		<span class="c-gray en">&gt;</span> 会员检索列表
+
 	</nav>
 	<div class="Hui-article">
 		<article class="cl pd-20">
@@ -23,12 +21,9 @@
 			</form></div>
 			<div class="cl pd-5 bg-1 bk-gray mt-20"> 
 				<span class="l">
-					<a href="<?=url('admin/member/membertoexcel')?>" class="btn btn-warning radius"><i class="Hui-iconfont">&#xe644;</i> 导 出</a>
+					<a href="<?=url('admin/member/membersearchtoexcel',array('s'=>$search))?>" class="btn btn-warning radius"><i class="Hui-iconfont">&#xe644;</i> 导出</a>
 					<a href="javascript:;" onclick="member_add('添加用户','<?= \think\Url::build('admin/member/memberAdd') ?>','','788')" class="btn btn-primary radius">
 						<i class="Hui-iconfont">&#xe600;</i> 添加用户
-					</a>
-					<a href="javascript:;" onclick="member_add('添加用户','<?= \think\Url::build('admin/member/recharge') ?>','','788')" class="btn btn-warning radius" >
-						<i class="Hui-iconfont">&#xe644;</i> 充 值
 					</a>
 				</span> 
 				<span class="r">共有数据：<strong><?=$count?></strong> 条</span> 
@@ -39,16 +34,15 @@
 						<tr class="text-c">
 							<th width="3%">ID</th>
 							<th width="5%">用户名</th>
-							<th width="3%">性别</th>
+							<th width="5%">性别</th>
 							<th width="8%">手机</th>
-							<th width="8%">会员编号</th>
 							<th >地址</th>
 							<th width="8%">区域</th>
 							<th width="8%">会员类别</th>
 							<th width="6%">套餐标准</th>
-							<th width="8%">其他联系方式</th>
+							<th width="10%">其他联系方式</th>
 							<th width="5%">消费者</th>
-							<!-- <th width="10%">添加时间</th> -->
+							<th width="10%">添加时间</th>
 							<th width="6%">入会时间</th>
 							<th width="5%">状态</th>
 							<th width="8%">操作</th>
@@ -69,14 +63,13 @@
 								<{/switch}>
 							</td>
 							<td><{$mem['mobile_phone']}></td>
-							<td><{$mem['serial_number']}></td>
 							<td class="text-l" title=""><{$mem['member_addr']}></td>
 							<td><{$mem['type_name']}></td>
 							<td><{$mem['grade_name']}></td>
 							<td><{$mem['standard_name']}></td>
 							<td><{$mem['family_phone']}></td>
 							<td><{$mem['cons_name']}></td>
-							<!-- <td><{$mem['at_time']}></td> -->
+							<td><{$mem['at_time']}></td>
 							<td><{$mem['ad_time']}></td>
 					<{switch name="$mem['m_status']"}>
 						<{case value="0"}>
@@ -121,21 +114,17 @@
 <script type="text/javascript" src="_LIB_/datatables/1.10.0/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="_LIB_/laypage/1.2/laypage.js"></script>
 <script type="text/javascript">
-var tan;
+
 function reaload() {
     window.location.reload();
 }
 
 /*用户-添加*/
 function member_add(title,url,w,h){
-	tan = layer_show(title,url,w,h);
+	layer_show(title,url,w,h);
 }
 /*用户-查看*/
 function member_show(title,url,id,w,h){
-	layer_show(title,url,w,h);
-}
-/*批量充值-上传文件*/ 
-function recharge(title,url,w,h){
 	layer_show(title,url,w,h);
 }
 /*用户-停用*/
@@ -192,7 +181,6 @@ function member_del(obj,id){
 		layer.msg('已删除!',{icon:1,time:1000});
 	});
 }
-
 </script>
 <!--/请在上方写此页面业务相关的脚本-->
 </body>
